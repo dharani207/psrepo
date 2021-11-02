@@ -1,0 +1,1 @@
+new-azpublicipaddress -name "piplinepip" -ResourceGroupName "testrg" -Location "east us" -Sku standard -Tier regional -AllocationMethod static -IpAddressVersion ipv4 -DomainNameLabel "testipip01234"
